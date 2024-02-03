@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Interactive Quiz">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="quizApp.css">
+  <title>Interactive Quiz</title>
+</head>
+
+<body>
+  <div id="quiz-container">
+    <h1>Trivia Quiz</h1>
+
+    <div id="question-container">
+      <p id="question-text"></p>
+      <div id="choices-list"></div>
+    </div>
+
+    <div id="navigation-container">
+      <button id="prev-button">Previous</button>
+      <button id="next-button">Next</button>
+      <button id="submit-button">Submit</button>
+    </div>
+
+    <div id="results-container" class="hidden">
+      <p id="score-text"></p>
+      <ul id="correct-answers-list"></ul>
+    </div>
+
+  </div>
+
+  <script src="quizLogic.js"></script>
+</body>
+
+
+</html>
